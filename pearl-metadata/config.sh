@@ -1,4 +1,2 @@
 
-[[ $- = *i* ]] && source ${PEARL_HOME}/packages/liquidprompt/module/liquidprompt
-
-return 0
+[[ $- = *i* ]] && source ${PEARL_PKGDIR}/module/liquidprompt

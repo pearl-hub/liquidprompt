@@ -1,2 +1,5 @@
 
-[[ $- = *i* ]] && source ${PEARL_PKGDIR}/module/liquidprompt
+if [[ $- = *i* ]]
+then
+    source ${PEARL_PKGDIR}/module/liquidprompt
+fi

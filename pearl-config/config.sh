@@ -1,5 +1,5 @@
 
 if [[ $- = *i* ]]
 then
-    source ${PEARL_PKGDIR}/module/liquidprompt
+    source ${PEARL_PKGVARDIR}/liquidprompt/liquidprompt
 fi
